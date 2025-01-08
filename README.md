@@ -5,25 +5,30 @@ This is a simple **C++ program** that calculates the factorial of a given number
 ---
 
 ## 💻 Features  
-1. **User Input**:  
+1. **📥 User Input**:  
    - The program prompts the user to enter a number (`a`).
-  
-2. **Factorial Calculation**:  
+
+2. **📊 Factorial Calculation**:  
    - It calculates the factorial of the input number using a `for` loop.
 
-3. **Output**:  
+3. **🖥️ Output**:  
    - Displays the factorial of the number.
    - Shows the memory address of the factorial variable using `&faktorial`.
 
-4. **Error Handling**:  
+4. **⚠️ Error Handling**:  
    - If the user enters a negative number, the program outputs an error message stating that the factorial is undefined for negative numbers.
+   - Provides a message for invalid input.
 
 ---
 
-## 📸 Screenshot of the Code
+## 📸 Screenshot of the Code  
 ![Factorial Code Screenshot](https://github.com/spyware-v2/Faktorial/blob/main/code%20ss.png)
 
-## To copy the code, click this link: [💾 Download Faktorial.cpp](https://github.com/spyware-v2/Faktorial/blob/main/Faktorial.cpp)
+---
+
+## 📥 Download the Code  
+Click this link to download the code:  
+[💾 Download Faktorial.cpp](https://github.com/spyware-v2/Faktorial/blob/main/Faktorial.cpp)
 
 ---
 
@@ -32,17 +37,20 @@ This is a simple **C++ program** that calculates the factorial of a given number
    - The user is prompted to input a number (`a`) for which the factorial will be calculated.
    
 2. **Calculation**:  
-   - The program calculates the factorial of the number using the formula:
-     ```
-     factorial = 1
+   - The program calculates the factorial of the number using the formula:  
+     ```cpp
+     factorial = 1;
      for (int i = 1; i <= a; i++) {
          factorial *= i;
      }
      ```
+
 3. **Result Display**:  
    - The program displays the factorial of the number and the memory address of the `faktorial` variable.
    - If a negative number is input, the program shows an error message:  
      `Faktorial tidak di definisikan untuk bilangan negativ!`
+   - If the input is invalid, it displays:  
+     `Kesalahan input! hanya dapat menginput angka.`
 
 ---
 
